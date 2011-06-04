@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
-
+gem "heroku"
 gem "haml-rails", ">= 0.3.4"
 gem "jquery-rails", ">= 0.2.7"
 gem "pg"
