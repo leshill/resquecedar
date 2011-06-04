@@ -6,6 +6,7 @@ gem "heroku"
 gem "haml-rails", ">= 0.3.4"
 gem "jquery-rails", ">= 0.2.7"
 gem "pg"
+gem "thin"
 
 group :development, :test do
   gem "fabrication", ">= 0.9.5"
