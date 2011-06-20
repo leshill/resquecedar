@@ -5,7 +5,7 @@ gem 'rails', '3.0.7'
 gem "decent_exposure"
 gem "heroku"
 gem "haml-rails", ">= 0.3.4"
-gem "informal", :git => "https://github.com/leshill/informal.git"
+gem "informal"
 gem "jquery-rails", ">= 0.2.7"
 gem "pg"
 gem "resque"
