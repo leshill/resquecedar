@@ -1,4 +1,5 @@
 class Work < ActiveRecord::Base
+  extend HerokuAutoScaler::AutoScaling
 
   serialize :env, Hash
 
@@ -18,5 +19,7 @@ class Work < ActiveRecord::Base
     sleep(work_time)
 
     update_attribute(:completed_at, Time.now)
+
+    raise "Failed job" if id.odd?
   end
 end
